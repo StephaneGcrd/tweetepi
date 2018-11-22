@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/Tweetepi/static/css/main.39c3a827.chunk.css"
   },
   {
-    "revision": "cc67996b00441c919a48d4ff43d03e72",
+    "revision": "10f20c4a077ca2870348d15c6b588250",
     "url": "/Tweetepi/index.html"
   }
 ];
