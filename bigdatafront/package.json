@@ -1,0 +1,46 @@
+{
+  "homepage": "http://StephaneGcrd.github.io/Tweetepi",
+  "name": "bigdatafront",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@vx/curve": "0.0.165",
+    "@vx/gradient": "0.0.165",
+    "@vx/group": "0.0.170",
+    "@vx/mock-data": "0.0.179",
+    "@vx/scale": "0.0.179",
+    "@vx/shape": "0.0.179",
+    "axios": "^0.18.0",
+    "chart.js": "^2.7.3",
+    "d3": "^5.7.0",
+    "d3-array": "^2.0.2",
+    "materialize-css": "^1.0.0-rc.2",
+    "moment": "^2.22.2",
+    "momentjs": "^2.0.0",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-scripts": "2.1.1",
+    "react-vis": "^1.11.4",
+    "vx": "^0.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}
